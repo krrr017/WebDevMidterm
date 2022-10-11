@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cupnoodle Shopping</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cupnoodle Shopping</h1>
+        <div class="cart">
+            <div class="cart_cnt hidden">
+                <span id="js_cart_cnt"></span>
+            </div>
+            <a class="cart_icon" href="confirm.html">
+                <img src="img/cart.png" alt="">
+            </a>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div class="item_wrapper">
+            <ul class="item_list">
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/chilitomato.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Chilli Tomato</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="chillitomato" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/clamchowder.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Clam Chowder</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="clamchowder" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/curry.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Curry</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="curry" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/miso.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Miso</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span
+                                class="js_get_price">100</span></div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="miso" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/original.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Original</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="original" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/peperoncino.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Peperoncino</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="peperoncino" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/seafood.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Seafood</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span
+                                class="js_get_price">100</span></div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="seafood"
+                                data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/sio.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Sio</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="sio" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/spicy.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Spicy</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="spicy" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img src="img/tomuyum.png" alt="">
+                    </div>
+                    <div class="item_textbox">
+                        <div class="item_title">
+                            <h2>Tomyumkung</h2>
+                        </div>
+                        <div class="item_price"><span class="yen_symbol">¥</span><span class="js_get_price">100</span>
+                        </div>
+                        <div class="item_btnarea">
+                            <button class="item_cart_btn js_cart_btn" data-name="tomuyumkung" data-price="100">カート</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
